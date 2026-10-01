@@ -1,6 +1,6 @@
 # Adaptive Mask Selection and Composition (AMSC)
 
-Code for the paper "How to Find and Reuse Policies for Continuous Adaptation in Lifelong Reinforcement Learning". Training and evaluation code for the CT28 and MG16 experiments. For CW10 experimnts see the amsc_cw branch.
+Code for the paper "How to Find and Reuse Policies for Continuous Adaptation in Lifelong Reinforcement Learning". Training and evaluation code for the CT28 and MG16 experiments. For CW10 experiments see the amsc_cw branch.
 
 ## Main Experiments
 
