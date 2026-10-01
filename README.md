@@ -1,14 +1,6 @@
 # Adaptive Mask Selection and Composition (AMSC)
 
-Training and evaluation code for the CT28 and MG16 experiments. Continual
-World experiments use the separate `amsc_cw/experiments/meta-world/HPC_CW10_COMMANDS.md` for the CW10 configurations.
-
-The supplementary archive uses the following layout:
-
-```text
-amsc/    CT28/MG16 training, environment configurations, and metrics
-amsc_cw/          CW10 training and execution instructions
-```
+Code for the paper "How to Find and Reuse Policies for Continuous Adaptation in Lifelong Reinforcement Learning". Training and evaluation code for the CT28 and MG16 experiments. For CW10 experimnts see the amsc_cw branch.
 
 ## Main Experiments
 
