@@ -1,0 +1,302 @@
+{
+  "benchmark": "CT28",
+  "policy": "all_positive_causal_pairwise_delta_auc",
+  "metric": "delta_auc",
+  "source_matrix": "baselines/mask-lrl/log/pairwise_ct28_seed92/batch_pairwise_transfer_manifest.json",
+  "source_seed": 92,
+  "minimum_delta_exclusive": 0.0,
+  "description": "For each target, select every earlier source with pairwise delta_auc strictly above 0.0. Relative source weights are proportional to the positive transfer gains. Abstain when no earlier source passes the criterion.",
+  "targets": {
+    "0": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "A_D2"
+    },
+    "1": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "B_D2"
+    },
+    "2": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D2"
+    },
+    "3": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "D_D2"
+    },
+    "4": {
+      "sources": [
+        0,
+        2,
+        3
+      ],
+      "weights": [
+        0.33333333333333337,
+        0.33333333333333337,
+        0.33333333333333337
+      ],
+      "scores": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "target": "A_D3"
+    },
+    "5": {
+      "sources": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weights": [
+        0.12499999999999994,
+        0.3125,
+        0.3125,
+        0.1875,
+        0.06249999999999994
+      ],
+      "scores": [
+        0.1999999999999999,
+        0.5,
+        0.5,
+        0.3,
+        0.0999999999999999
+      ],
+      "target": "B_D3"
+    },
+    "6": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D3"
+    },
+    "7": {
+      "sources": [
+        2,
+        3,
+        5
+      ],
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "scores": [
+        0.0999999999999999,
+        0.0999999999999999,
+        0.0999999999999999
+      ],
+      "target": "D_D3"
+    },
+    "8": {
+      "sources": [
+        0,
+        4
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "target": "A_D4"
+    },
+    "9": {
+      "sources": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "weights": [
+        0.3225806451612903,
+        0.3225806451612903,
+        0.3225806451612903,
+        0.03225806451612903
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.1
+      ],
+      "target": "B_D4"
+    },
+    "10": {
+      "sources": [
+        0,
+        1,
+        2,
+        6,
+        8,
+        9
+      ],
+      "weights": [
+        0.2857142857142857,
+        0.08571428571428572,
+        0.2857142857142857,
+        0.2571428571428572,
+        0.028571428571428574,
+        0.05714285714285715
+      ],
+      "scores": [
+        1.0,
+        0.3,
+        1.0,
+        0.9,
+        0.1,
+        0.2
+      ],
+      "target": "C_D4"
+    },
+    "11": {
+      "sources": [
+        3
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        0.9
+      ],
+      "target": "D_D4"
+    },
+    "12": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "A_D5"
+    },
+    "13": {
+      "sources": [
+        2,
+        5
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "scores": [
+        0.1,
+        0.1
+      ],
+      "target": "B_D5"
+    },
+    "14": {
+      "sources": [
+        10
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        1.0
+      ],
+      "target": "C_D5"
+    },
+    "15": {
+      "sources": [
+        3,
+        11
+      ],
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "scores": [
+        0.9,
+        0.3
+      ],
+      "target": "D_D5"
+    },
+    "16": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "A_D6"
+    },
+    "17": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "B_D6"
+    },
+    "18": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D6"
+    },
+    "19": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "D_D6"
+    },
+    "20": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "A_D7"
+    },
+    "21": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "B_D7"
+    },
+    "22": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D7"
+    },
+    "23": {
+      "sources": [
+        15
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        0.1
+      ],
+      "target": "D_D7"
+    },
+    "24": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "A_D8"
+    },
+    "25": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "B_D8"
+    },
+    "26": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D8"
+    },
+    "27": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "D_D8"
+    }
+  }
+}

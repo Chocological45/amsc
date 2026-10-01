@@ -1,0 +1,106 @@
+{
+  "benchmark": "MG16",
+  "policy": "best_positive_causal_pairwise_delta_auc",
+  "metric": "delta_auc",
+  "source_matrix": "baselines/mask-lrl/log/pairwise_mg16_seed86_family_masklc/analysis_family/pairwise_transfer_long.csv",
+  "source_seed": 86,
+  "description": "For each target, select the earlier source with the largest strictly positive pairwise delta AUC. Abstain when no earlier source improves over no-source learning.",
+  "targets": {
+    "0": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "CurriculumMultiRoomObjectRemapEnv-BallLava-R2-v0"
+    },
+    "1": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "CurriculumMultiRoomObjectRemapEnv-LavaBall-R2-v0"
+    },
+    "2": {
+      "sources": [0],
+      "weights": [1.0],
+      "scores": [0.3390967741935486],
+      "target": "CurriculumMultiRoomObjectRemapEnv-KeyBoxSwap-R2-v0"
+    },
+    "3": {
+      "sources": [0],
+      "weights": [1.0],
+      "scores": [0.0649833887043189],
+      "target": "CurriculumMultiRoomObjectRemapEnv-Identity-R2-v0"
+    },
+    "4": {
+      "sources": [0],
+      "weights": [1.0],
+      "scores": [0.9252173913043478],
+      "target": "CurriculumMultiRoomObjectRemapEnv-BallLava-R3-v0"
+    },
+    "5": {
+      "sources": [3],
+      "weights": [1.0],
+      "scores": [0.4399999999999999],
+      "target": "CurriculumMultiRoomObjectRemapEnv-LavaBall-R3-v0"
+    },
+    "6": {
+      "sources": [3],
+      "weights": [1.0],
+      "scores": [0.9627329192546584],
+      "target": "CurriculumMultiRoomObjectRemapEnv-KeyBoxSwap-R3-v0"
+    },
+    "7": {
+      "sources": [3],
+      "weights": [1.0],
+      "scores": [0.231219512195122],
+      "target": "CurriculumMultiRoomObjectRemapEnv-Identity-R3-v0"
+    },
+    "8": {
+      "sources": [0],
+      "weights": [1.0],
+      "scores": [0.98],
+      "target": "CurriculumMultiRoomObjectRemapEnv-BallLava-R4-v0"
+    },
+    "9": {
+      "sources": [5],
+      "weights": [1.0],
+      "scores": [0.9],
+      "target": "CurriculumMultiRoomObjectRemapEnv-LavaBall-R4-v0"
+    },
+    "10": {
+      "sources": [6],
+      "weights": [1.0],
+      "scores": [0.9700996677740864],
+      "target": "CurriculumMultiRoomObjectRemapEnv-KeyBoxSwap-R4-v0"
+    },
+    "11": {
+      "sources": [7],
+      "weights": [1.0],
+      "scores": [0.9698064516129028],
+      "target": "CurriculumMultiRoomObjectRemapEnv-Identity-R4-v0"
+    },
+    "12": {
+      "sources": [0],
+      "weights": [1.0],
+      "scores": [0.98],
+      "target": "CurriculumMultiRoomObjectRemapEnv-BallLava-R5-v0"
+    },
+    "13": {
+      "sources": [9],
+      "weights": [1.0],
+      "scores": [0.9986064516129032],
+      "target": "CurriculumMultiRoomObjectRemapEnv-LavaBall-R5-v0"
+    },
+    "14": {
+      "sources": [6],
+      "weights": [1.0],
+      "scores": [0.9283028720626634],
+      "target": "CurriculumMultiRoomObjectRemapEnv-KeyBoxSwap-R5-v0"
+    },
+    "15": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "CurriculumMultiRoomObjectRemapEnv-Identity-R5-v0"
+    }
+  }
+}

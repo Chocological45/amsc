@@ -1,0 +1,419 @@
+{
+  "benchmark": "CT28",
+  "policy": "all_positive_causal_pairwise_delta_auc",
+  "metric": "delta_auc",
+  "source_matrix": "baselines/mask-lrl/log/pairwise_ct28_seed92_finetune/transfer_similarity_analysis_family_order/transfer_similarity_long.csv",
+  "source_seed": 92,
+  "minimum_delta_exclusive": 0.0,
+  "description": "For each target, select every earlier source with pairwise delta_auc strictly above 0.0. Relative source weights are proportional to the positive transfer gains. Abstain when no earlier source passes the criterion.",
+  "targets": {
+    "0": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "A_D2"
+    },
+    "1": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "B_D2"
+    },
+    "2": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D2"
+    },
+    "3": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "D_D2"
+    },
+    "4": {
+      "sources": [
+        0,
+        2,
+        3
+      ],
+      "weights": [
+        0.4285714285714286,
+        0.4285714285714286,
+        0.14285714285714288
+      ],
+      "scores": [
+        0.3,
+        0.3,
+        0.1
+      ],
+      "target": "A_D3"
+    },
+    "5": {
+      "sources": [
+        1,
+        2
+      ],
+      "weights": [
+        0.625,
+        0.37499999999999994
+      ],
+      "scores": [
+        0.5,
+        0.3
+      ],
+      "target": "B_D3"
+    },
+    "6": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D3"
+    },
+    "7": {
+      "sources": [
+        3
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        0.0999999999999999
+      ],
+      "target": "D_D3"
+    },
+    "8": {
+      "sources": [
+        0,
+        4
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "target": "A_D4"
+    },
+    "9": {
+      "sources": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "weights": [
+        0.375,
+        0.04166666666666667,
+        0.4166666666666667,
+        0.16666666666666669
+      ],
+      "scores": [
+        0.9,
+        0.1,
+        1.0,
+        0.4
+      ],
+      "target": "B_D4"
+    },
+    "10": {
+      "sources": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": "C_D4"
+    },
+    "11": {
+      "sources": [
+        3,
+        7
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "scores": [
+        0.9,
+        0.9
+      ],
+      "target": "D_D4"
+    },
+    "12": {
+      "sources": [
+        4,
+        8
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "target": "A_D5"
+    },
+    "13": {
+      "sources": [
+        5,
+        9
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "target": "B_D5"
+    },
+    "14": {
+      "sources": [
+        0,
+        2,
+        4,
+        10,
+        11
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.225,
+        0.25,
+        0.025
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.9,
+        1.0,
+        0.1
+      ],
+      "target": "C_D5"
+    },
+    "15": {
+      "sources": [
+        3,
+        7,
+        11
+      ],
+      "weights": [
+        0.3448275862068966,
+        0.3103448275862069,
+        0.3448275862068966
+      ],
+      "scores": [
+        1.0,
+        0.9,
+        1.0
+      ],
+      "target": "D_D5"
+    },
+    "16": {
+      "sources": [
+        4,
+        8,
+        10,
+        12
+      ],
+      "weights": [
+        0.3225806451612903,
+        0.3225806451612903,
+        0.03225806451612903,
+        0.3225806451612903
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        0.1,
+        1.0
+      ],
+      "target": "A_D6"
+    },
+    "17": {
+      "sources": [
+        5,
+        9,
+        13
+      ],
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": "B_D6"
+    },
+    "18": {
+      "sources": [],
+      "weights": [],
+      "scores": [],
+      "target": "C_D6"
+    },
+    "19": {
+      "sources": [
+        3,
+        11,
+        15
+      ],
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": "D_D6"
+    },
+    "20": {
+      "sources": [
+        8,
+        12,
+        16
+      ],
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": "A_D7"
+    },
+    "21": {
+      "sources": [
+        9,
+        13,
+        17
+      ],
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": "B_D7"
+    },
+    "22": {
+      "sources": [
+        18
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        1.0
+      ],
+      "target": "C_D7"
+    },
+    "23": {
+      "sources": [
+        3,
+        11,
+        15,
+        19
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": "D_D7"
+    },
+    "24": {
+      "sources": [
+        8,
+        12,
+        16,
+        20
+      ],
+      "weights": [
+        0.25641025641025644,
+        0.23076923076923078,
+        0.25641025641025644,
+        0.25641025641025644
+      ],
+      "scores": [
+        1.0,
+        0.9,
+        1.0,
+        1.0
+      ],
+      "target": "A_D8"
+    },
+    "25": {
+      "sources": [
+        21
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        1.0
+      ],
+      "target": "B_D8"
+    },
+    "26": {
+      "sources": [
+        22
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        1.0
+      ],
+      "target": "C_D8"
+    },
+    "27": {
+      "sources": [
+        15
+      ],
+      "weights": [
+        1.0
+      ],
+      "scores": [
+        1.0
+      ],
+      "target": "D_D8"
+    }
+  }
+}
